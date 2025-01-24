@@ -16,6 +16,9 @@ const Nav = () => {
         <li>
           <a href="/contact">FAQ</a>
         </li>
+        <li>
+          <a href="/contact">Test</a>
+        </li>
       </ul>
     </nav>
   );
