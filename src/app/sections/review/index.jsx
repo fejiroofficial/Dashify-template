@@ -61,11 +61,8 @@ function CustomerReviews() {
         <div className="flex flex-row justify-center items-center gap-4 px-6">
           <CustomerReviewImage
             images={[
-              "/public/profile.avif",
-              "/public/profile.avif",
-              "/public/profile.avif",
-              "/public/profile.avif",
-              "/public/profile.avif",
+           
+           
             ]}
           />
 
@@ -78,7 +75,7 @@ function CustomerReviews() {
         </h1>
       </header>
 
-      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-6xl">
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
         {customerReviews.map((review, index) => (
           <CustomerReviewCard key={index} review={review} />
         ))}

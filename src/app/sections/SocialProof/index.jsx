@@ -15,7 +15,7 @@ const SocialProof = () => {
                <h2 className="lg:mt-12 text-lg ">Our customers work at:</h2>
                <div className="flex justify-between gap-16 overflow-x-scroll">
         {customerLogos.map((logo, index) => (
-          <Image key={index} src={logo} alt={`customer-logo-${index}`} width={65} className="w-[60px] h-auto" />
+          <Image key={index} src={logo} alt={`customer-logo-${index}`} width={70} height={24} className="w-[80px] h-auto" />
         ))}
       </div>
         </section>

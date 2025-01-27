@@ -22,7 +22,7 @@ const Problem = () => {
           spending hours every week just trying to piece it together.
         </p>
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-center gap-12 lg:py-16 w-full max-w-5xl">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:py-16 w-full max-w-5xl">
         <div className="flex flex-col gap-6 items-start">
           <h3 className="text-[22px] font-medium text-gray-400 text-left">
             Is this you every time you need a new dashboard?

@@ -11,7 +11,7 @@ import SocialProof from "../SocialProof";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto relative flex flex-col items-center text-center w-full lg:h-screen ">
+    <section className="container mx-auto relative flex flex-col items-center text-center w-full md:mb-20 lg:mb-8 ">
       <Image
         src={background}
         alt="background-image"
@@ -21,10 +21,10 @@ const Hero = () => {
         <div className="absolute top-[8rem] left-[-10rem] justify-between hidden lg:block">
           <Image src={icon} alt="icon" className="" />
         </div>
-        <div className="absolute top-[12rem] right-[-10rem] justify-between hidden lg:block">
+        <div className="absolute top-[10rem] right-[-10rem] justify-between hidden lg:block">
           <Image src={leftIcon} alt="icon" />
         </div>
-        <h1 className="text-[48px] lg:text-[64px] font-bold text-center flex-wrap">
+        <h1 className="text-[48px] lg:text-[64px] lg:pt-6 text-center flex-wrap">
           One prompt away from a <br /> Dashboard
         </h1>
         <div className="absolute bottom-[5rem] left-[-1rem] justify-between hidden lg:block">
@@ -33,7 +33,7 @@ const Hero = () => {
         <div className="absolute bottom-[4rem] right-[-1rem] justify-between hidden lg:block">
           <Image src={leftWave} alt="icon" />
         </div>
-        <p className="text-[18px] md:text-xl mb-8 text-[#D4D4D4]">
+        <p className="text-[18px] md:text-xl mb-8 text-[#D4D4D4] flex-wrap">
           Seamlessly integrate with <br /> Gmail, GitHub, Google Calendar,
           Trello, and more.
         </p>
