@@ -1,17 +1,17 @@
 import React from 'react';
 import Image from 'next/image';
-
+import product from "@/app/asset/svg/product.svg";
+ 
 const Product = () => {
     return (
-        <section className="product py-20 text-center">
-            <h2 className="text-3xl font-bold mb-8">Our Product</h2>
-            <div className="banner-image">
+        <section className="container mx-auto relative flex flex-col justify-center items-center text-center shadow-2xl py-8 mt-24 mb-[4rem] md:mb-[12rem] ">
+            <div className="absolute rounded-xl justify-center" >
                 <Image 
-                    src="/product-banner.png" 
+                    src={product}
                     alt="SaaS Product" 
                     width={1200} 
-                    height={600} 
-                    className="mx-auto"
+                    // height={600} 
+                    className="object-contain cursor-pointer w-full"
                 />
             </div>
         </section>

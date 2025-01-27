@@ -1,14 +1,55 @@
-import React from 'react';
-import Button from '../../components/Button';
+import React from "react";
+import Button from "../../components/Button";
+import Image from "next/image";
+import background from "@/app/asset/background.png";
+import icon from "@/app/asset/svg/heroicon.svg";
+import leftIcon from "@/app/asset/svg/icon.svg";
+import wave from "@/app/asset/svg/herowave.svg";
+import leftWave from "@/app/asset/svg/wave.svg";
+import vector from "@/app/asset/svg/vector.svg";
+import SocialProof from "../SocialProof";
 
 const Hero = () => {
-    return (
-        <section className="hero flex flex-col items-center text-center py-20">
-            <h1 className="text-5xl font-bold mb-4">Welcome to Dashify</h1>
-            <p className="text-xl mb-8">Your one-stop solution for all your dashboard needs.</p>
-            <Button>Get Started</Button>
-        </section>
-    );
+  return (
+    <section className="container mx-auto relative flex flex-col items-center text-center w-full lg:h-screen ">
+      <Image
+        src={background}
+        alt="background-image"
+        className="absolute inset-0 w-full h-full object-cover -z-10 top-0"
+      />
+      <div className="relative z-10 lg:pt-24">
+        <div className="absolute top-[8rem] left-[-10rem] justify-between hidden lg:block">
+          <Image src={icon} alt="icon" className="" />
+        </div>
+        <div className="absolute top-[12rem] right-[-10rem] justify-between hidden lg:block">
+          <Image src={leftIcon} alt="icon" />
+        </div>
+        <h1 className="text-[48px] lg:text-[64px] font-bold text-center flex-wrap">
+          One prompt away from a <br /> Dashboard
+        </h1>
+        <div className="absolute bottom-[5rem] left-[-1rem] justify-between hidden lg:block">
+          <Image src={wave} alt="icon" />
+        </div>
+        <div className="absolute bottom-[4rem] right-[-1rem] justify-between hidden lg:block">
+          <Image src={leftWave} alt="icon" />
+        </div>
+        <p className="text-[18px] md:text-xl mb-8 text-[#D4D4D4]">
+          Seamlessly integrate with <br /> Gmail, GitHub, Google Calendar,
+          Trello, and more.
+        </p>
+        <Button>Create Dashboard</Button>
+        <div className="relative py-6">
+          <div className="absolute right-[50%]">
+            <Image src={vector} alt="vector" />
+          </div>
+          <p className="pt-12 text-[14px] font-medium text-[#D4D4D4] pl-6 rotate-[-25deg]">
+            No code required!
+          </p>
+        </div>
+      </div>
+      <SocialProof />
+    </section>
+  );
 };
 
 export default Hero;
