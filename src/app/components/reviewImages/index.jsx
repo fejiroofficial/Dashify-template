@@ -7,7 +7,7 @@ const CustomerReviewImage = ({ images }) => {
       {images.map((image, index) => (
         <div
           key={index}
-          className="w-8 md:w-6 h-8 md:h-6 rounded-full border-2 border-white overflow-hidden shadow-md"
+          className="w-8 md:w-5 h-8 md:h-5 rounded-full overflow-hidden shadow-md"
           style={{
             marginLeft: index === 0 ? 0 : '-10px',
             zIndex: images.length - index,

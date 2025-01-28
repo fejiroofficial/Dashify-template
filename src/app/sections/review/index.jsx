@@ -2,6 +2,10 @@ import React from "react";
 import CustomerReviewImage from "@/app/components/reviewImages";
 import CustomerReviewCard from "@/app/components/reviewCard";
 import avater from "@/app/asset/svg/pm.svg";
+import avater1 from "@/app/asset/svg/developer.svg";
+import avater2 from "@/app/asset/svg/user.svg";
+import avater3 from "@/app/asset/svg/user2.svg";
+import avater4 from "@/app/asset/svg/user3.svg";
 
 function CustomerReviews() {
   const customerReviews = [
@@ -61,7 +65,11 @@ function CustomerReviews() {
         <div className="flex flex-row justify-center items-center gap-4 px-6">
           <CustomerReviewImage
             images={[
-           
+           avater2,
+           avater3,
+           avater1,
+           avater,
+           avater1,
            
             ]}
           />
