@@ -40,7 +40,7 @@ const HowItWorks = () => {
         </div>
         <div className="flex flex-col gap-6">
           {steps.map((step, index) => (
-            <div key={index} className="px-2 md:px-6">
+            <div key={index} className="px-6 md:px-6">
               <h3 className="text-[12px] font-medium text-[#888888]">{step.title}</h3>
               <h4 className="text-[22px] lg:text-[38px] font-medium">{step.heading}</h4>
               <p className="text-[#888888] text-[20px] lg:w-[482px] mt-6">{step.description}</p>

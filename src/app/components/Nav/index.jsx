@@ -4,6 +4,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import menu from "@/app/asset/svg/menu.svg";
 import Image from "next/image";
 import Button from "../Button";
+import Link from "next/link";
 
 const Nav = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -23,51 +24,36 @@ const Nav = () => {
       </button>
 
       {isMenuOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center z-50">
-          <div className="flex flex-col justify-between items-center relative top-0 rounded-lg shadow-lg w-full h-1/2 p-6">
+        <div className="fixed inset-0 bg-opacity-80 flex justify-center z-50 bg-[white]">
+          <div className="flex flex-col justify-between items-center relative top-0 rounded-lg shadow-lg w-full h-1/2 p-6 bg-black">
             <button
               className="absolute top-4 right-4 text-gray-600 hover:text-gray-900"
               onClick={toggleMenu}
               aria-label="Close Menu"
             >
-              <AiOutlineClose size={24} />
+              <AiOutlineClose size={30} />
             </button>
-            <ul className="space-y-6 text-center ">
+
+            <ul className="space-y-6 text-center">
               <li>
-                <a
-                  href="/"
-                  className="block text-white hover:text-red-500"
-                  onClick={toggleMenu}
-                >
+                <Link href="/" className="block text-white hover:text-[#D4D4D4]" onClick={toggleMenu}>
                   Features
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#HowItWorks"
-                  className="block text-white hover:text-red-500"
-                  onClick={toggleMenu}
-                >
+                <Link href="#HowItWorks" className="block text-white hover:text-[#D4D4D4]" onClick={toggleMenu}>
                   How it Works
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#pricing"
-                  className="block text-white hover:text-red-500"
-                  onClick={toggleMenu}
-                >
+                <Link href="#pricing" className="block text-white hover:text-[#D4D4D4]" onClick={toggleMenu}>
                   Pricing
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#faq"
-                  className="block text-white hover:text-red-500"
-                  onClick={toggleMenu}
-                >
+                <Link href="#faq" className="block text-white hover:text-[#D4D4D4]" onClick={toggleMenu}>
                   FAQ
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="block lg:hidden">
@@ -76,26 +62,27 @@ const Nav = () => {
           </div>
         </div>
       )}
-      <ul className="hidden lg:flex gap-4">
-        <li>
-          <a href="/" className="text-white hover:text-red-500">
+
+      <ul className="hidden lg:flex gap-4 cursor-pointer">
+        <li >
+          <Link href="/" className="text-white hover:text-[#D4D4D4]">
             Features
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#HowItWorks" className="text-white hover:text-red-500">
+          <Link href="#HowItWorks" className="text-white hover:text-[#D4D4D4]">
             How it Works
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#pricing" className="text-white hover:text-red-500">
+          <Link href="#pricing" className="text-white hover:text-[#D4D4D4]">
             Pricing
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#faq" className="text-white hover:text-red-500">
+          <Link href="#faq" className="text-white hover:text-[#D4D4D4]">
             FAQ
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

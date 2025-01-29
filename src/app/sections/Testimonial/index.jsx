@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Testimonial = ({ rating = 5, name }) => {
   return (
-    <div className="container mx-auto relative bg-[#0E0E0E] flex flex-col items-center text-center py-6 px-2 lg:px-16 rounded-2xl gap-4 overflow-hidden mb-10 w-[95%] lg:w-[70%] border-solid">
+    <div className="container mx-auto relative bg-[#0E0E0E] flex flex-col items-center text-center py-6 px-6 lg:px-16 rounded-2xl gap-4 overflow-hidden mb-10 w-[95%] lg:w-[70%] border-solid">
       <p className="text-[20px] md:text-[22px] font-medium text-[#D4D4D4DB] lg:w-[756px] w-full">
         “As a PM who can't code, I used to spend my Mondays copying data between
         spreadsheets. Now I just tell the AI what I want to track and it builds

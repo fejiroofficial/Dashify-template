@@ -8,15 +8,15 @@ import Button from "../Button";
 
 const Header = () => {
   return (
-    <div className="container lg:mx-auto relative lg:top-10">
+    <div className="lg:container lg:mx-auto relative lg:top-10">
     <header className=" lg:bg-black lg:py-6 rounded-md lg:px-2 lg:mx-20">
       <Image
         src={rectangle}
         alt="background-image"
-        className="absolute inset-0 w-full object-cover -z-10 top-2 lg:top-[-2rem] "
+        className="absolute inset-0 w-full object-cover -z-10 top-0 md:top-[-2rem] "
       />
 
-      <div className="flex justify-between items-center px-2 lg:px-6">
+      <div className="flex justify-between items-center px-6">
         <Link href="/" className="flex items-center gap-2">
           <div className="bg-gray-500 flex items-center justify-center w-8 py-2 rounded">
             <Image src={logo} alt="logo" />
@@ -27,6 +27,7 @@ const Header = () => {
           </div>
         </Link>
         <Nav />
+
 <div className="hidden lg:block">
 
         <Button>Create Dashboard</Button>

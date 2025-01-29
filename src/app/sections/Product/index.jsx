@@ -4,7 +4,7 @@ import product from "@/app/asset/svg/product.svg";
  
 const Product = () => {
     return (
-        <section className="container mx-auto relative flex flex-col justify-center items-center text-center shadow-2xl py-8 lg:mt-[10rem] mb-[4rem] md:mb-[12rem] ">
+        <section className="container mx-auto relative flex flex-col justify-center items-center text-center shadow-2xl py-8 lg:mt-[10rem] mb-[4rem] md:mb-[12rem] px-6">
             <div className="absolute rounded-xl justify-center" >
                 <Image 
                     src={product}

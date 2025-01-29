@@ -11,21 +11,21 @@ import SocialProof from "../SocialProof";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto relative flex flex-col items-center text-center w-full md:mb-20 lg:mb-8 ">
+    <section className="container mx-auto relative flex flex-col items-center text-center w-full mb-12 md:mb-[8rem] lg:mb-8 px-4">
       <Image
         src={background}
         alt="background-image"
-        className="absolute inset-0 w-full h-full object-cover -z-10 top-0"
+        className="absolute inset-0 w-full h-full md:object-cover -z-10 top-[-1rem] md:top-4 lg:top-0"
       />
-      <div className="relative z-10 lg:pt-24">
+      <div className="relative z-10 lg:pt-24 ">
         <div className="absolute top-[8rem] left-[-10rem] justify-between hidden lg:block">
           <Image src={icon} alt="icon" className="" />
         </div>
         <div className="absolute top-[10rem] right-[-10rem] justify-between hidden lg:block">
           <Image src={leftIcon} alt="icon" />
         </div>
-        <h1 className="text-[48px] lg:text-[64px] lg:pt-6 text-center flex-wrap">
-          One prompt away from a <br /> Dashboard
+        <h1 className="text-[48px] lg:text-[64px] pt-8 lg:pt-6 text-center flex-wrap md:w-[645px]">
+          One prompt away from a Dashboard
         </h1>
         <div className="absolute bottom-[5rem] left-[-1rem] justify-between hidden lg:block">
           <Image src={wave} alt="icon" />
@@ -33,7 +33,7 @@ const Hero = () => {
         <div className="absolute bottom-[4rem] right-[-1rem] justify-between hidden lg:block">
           <Image src={leftWave} alt="icon" />
         </div>
-        <p className="text-[18px] md:text-xl mb-8 text-[#D4D4D4] flex-wrap">
+        <p className="text-[18px] md:text-xl mb-8 text-[#D4D4D4] flex-wrap px-6 lg:px-0">
           Seamlessly integrate with <br /> Gmail, GitHub, Google Calendar,
           Trello, and more.
         </p>

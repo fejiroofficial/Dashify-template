@@ -8,7 +8,7 @@ import Dependency from "@/app/asset/svg/dependency.svg";
 import view from "@/app/asset/svg/views.svg";
 const Solution = () => {
   return (
-    <section className="container mx-auto flex flex-col justify-center items-center pt-20 text-center">
+    <section className="container mx-auto flex flex-col justify-center items-center pt-20 text-center px-6">
         <div className="flex justify-center bg-black items-center px-10 py-3">
 
 <Image src={line} alt="line-icon" className="bg-white" />
