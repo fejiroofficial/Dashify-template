@@ -1,21 +1,11 @@
-import React from 'react';
-import Image from 'next/image';
-import das from "@/app/asset/svg/reviewBanner.svg";
- 
+import React from "react";
+
 const CreateDas = () => {
-    return (
-        <section className="flex flex-col justify-center py-8 overflow-hidden">
-            <div className="justify-center" >
-                <Image 
-                    src={das}
-                    alt="SaaS CreateDas" 
-                    width={1400} 
-                    // height={600} 
-                    className="object-cover w-full"
-                />
-            </div>
-        </section>
-    );
+  return (
+    <button className=" bottom-0 left-0 w-[1512px] h-[347px] bg-white text-black text-[233px] overflow-hidden whitespace-nowrap">
+      Create Dashboard
+    </button>
+  );
 };
 
 export default CreateDas;

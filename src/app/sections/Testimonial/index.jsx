@@ -23,7 +23,7 @@ const Testimonial = ({ rating = 5, name }) => {
         <p className="text-[12px] text-[#D4D4D4]">Senior PM at TechFlow</p>
       </div>
 
-      <div className="absolute bottom-[-7rem] left-0 w-full h-[35%] bg-gradient-to-r from-[#747474] to-transparent transform -translate-y-1/3 skew-y-6 rounded-b-2xl shadow-2xl"></div>
+      <div className="absolute bottom-[-8rem] left-0 w-full h-[35%] bg-gradient-to-r from-[#747474] to-transparent transform -translate-y-1/3 skew-y-6 rounded-b-2xl shadow-2xl"></div>
     </div>
   );
 };

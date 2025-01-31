@@ -11,9 +11,9 @@ const SocialProof = () => {
   const customerLogos = [andela, health, getquin, crypto, rock, livelink];
  
     return (
-        <section className="md:py-10 text-center mb-[4rem]">
-               <h2 className="lg:mt-12 text-lg ">Our customers work at:</h2>
-               <div className="flex justify-between gap-16 overflow-x-scroll">
+        <section className="md:py-6 text-center">
+               <h2 className="lg:mt-12 text-lg text-[#D4D4D4]">Our customers work at:</h2>
+               <div className="flex justify-between gap-16 overflow-x-scroll h-[64px]">
         {customerLogos.map((logo, index) => (
           <Image key={index} src={logo} alt={`customer-logo-${index}`} width={70} height={24} className="w-[80px] h-auto" />
         ))}

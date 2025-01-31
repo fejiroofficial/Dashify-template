@@ -63,7 +63,7 @@ const Nav = () => {
         </div>
       )}
 
-      <ul className="hidden lg:flex gap-4 cursor-pointer">
+      <ul className="hidden lg:flex gap-4">
         <li >
           <Link href="/" className="text-white hover:text-[#D4D4D4]">
             Features

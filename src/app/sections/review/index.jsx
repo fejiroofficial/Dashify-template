@@ -60,7 +60,7 @@ function CustomerReviews() {
   ];
 
   return (
-    <div className="container mx-auto flex flex-col items-center justify-center px-6">
+    <div className="container mx-auto flex flex-col items-center justify-center px-6 h-screen">
       <header className="text-center mb-8">
         <div className="flex flex-row justify-center items-center gap-4 px-6">
           <CustomerReviewImage
