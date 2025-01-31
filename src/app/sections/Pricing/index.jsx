@@ -16,14 +16,14 @@ const Pricing = () => {
 
   return (
     <section
-      className="container mx-auto relative flex flex-col justify-center items-center text-center px-6 pt-16"
+      className="container mx-auto relative flex flex-col justify-center items-center text-center px-6 pt-16 mb-16"
       id="pricing"
     >
       <p className="text-[32px] lg:text-[48px] font-medium">Clear pricing for 10x value</p>
       <p className="text-[20px] font-medium max-w-[325px] text-[#D4D4D4] pb-6">
         Flexible price plans to fit your demand and pocket size
       </p>
-      <div className="absolute top-[70%] left-10 w-[50%] h-1/2 rounded-full bg-[rgba(146,146,146,1)] blur-[460px] -z-10"></div>
+      <div className="absolute right-10 w-[30%] h-1/4 rounded-full bg-[rgba(146,146,146,1)] blur-[460px] -z-10"></div>
 
 
       <div className="flex flex-col lg:flex-row justify-between gap-16 py-8 px-6">

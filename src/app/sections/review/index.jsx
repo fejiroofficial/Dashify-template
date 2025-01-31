@@ -6,7 +6,7 @@ import avater1 from "@/app/asset/svg/developer.svg";
 import avater2 from "@/app/asset/svg/user.svg";
 import avater3 from "@/app/asset/svg/user2.svg";
 import avater4 from "@/app/asset/svg/user3.svg";
-
+import Box from "@/app/asset/svg/boxes.svg";
 function CustomerReviews() {
   const customerReviews = [
     {
@@ -60,25 +60,18 @@ function CustomerReviews() {
   ];
 
   return (
-    <div className="container mx-auto flex flex-col items-center justify-center px-6 h-screen">
+    <div
+      className=" flex flex-col items-center justify-center pt-10 pb-20 relative bg-cover bg-center w-full px-6 "
+      style={{ backgroundImage: `url(${Box.src})` }}
+    >
       <header className="text-center mb-8">
-        <div className="flex flex-row justify-center items-center gap-4 px-6">
+        <div className="flex flex-row justify-center items-center gap-4 px-6 py-4">
           <CustomerReviewImage
-            images={[
-           avater2,
-           avater3,
-           avater1,
-           avater,
-           avater1,
-           
-            ]}
+            images={[avater2, avater3, avater1, avater, avater1]}
           />
-
-          <p>
-            15K+ <span className="text-[#888888]">power users</span>
-          </p>
+          <p>15K+ <span className="text-[#888888] mb-6">power users</span></p>
         </div>
-        <h1 className="text-white font-medium text-3xl md:text-[48px]">
+        <h1 className="text-white font-medium text-3xl md:text-[48px] mb-4 pb-8">
           Hear from our customers
         </h1>
       </header>

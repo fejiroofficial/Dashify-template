@@ -31,13 +31,13 @@ const HowItWorks = () => {
      
       <div className="flex items-center w-full justify-center mb-8">
       <div className=" flex items-center">
-        <div className="h-[1px] w-[100px] md:w-[198px] bg-white opacity-50"></div>
+        <div className="h-[1px] w-[50px] md:w-[198px] bg-white opacity-50"></div>
         <div className="w-2 h-2 bg-white rounded-full"></div>
         </div>
         <h2 className="text-[32px] md:text-[48px] font-medium mx-4 text-center">Here is how it works</h2>
         <div className=" flex items-center">
         <div className="w-2 h-2 bg-white rounded-full"></div>
-        <div className="h-[1px] w-[100px] md:w-[198px] bg-white opacity-50"></div>
+        <div className="h-[1px] w-[50px] md:w-[198px] bg-white opacity-50"></div>
         </div>
       </div>
       <div className="flex flex-col lg:flex-row items-center lg:items-start gap-16 justify-center lg:justify-between">

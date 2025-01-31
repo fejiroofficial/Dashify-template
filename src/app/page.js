@@ -16,7 +16,7 @@ import SocialProof from "./sections/SocialProof";
 
 export default function Home() {
   return (
-    <div className="lg:grid lg:grid-rows-[20px_1fr_20px] items-center justify-center lg:min-h-screen py-6 font-[family-name:var(--font-geist-sans)] overflow-hidden">
+    <div className="lg:grid lg:grid-rows-[20px_1fr_20px] items-center justify-center  py-6 font-[family-name:var(--font-geist-sans)] overflow-hidden">
       <Header />
       <main className="flex flex-col gap-8 lg:row-start-2 justify-center items-center ">
         <Hero />
