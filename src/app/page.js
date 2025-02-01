@@ -11,8 +11,7 @@ import Footer from "./sections/Footer";
 import Faq from "./sections/Faq";
 import CustomerReviews from "./sections/review";
 import CreateDas from "./sections/Das";
-import SocialProof from "./sections/SocialProof";
-
+import dynamic from "next/dynamic";
 
 export default function Home() {
   return (

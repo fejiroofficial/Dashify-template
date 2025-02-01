@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="flex flex-col justify-center">
       <Image src={Line} alt="line" />
-      <div className="container mx-auto flex flex-row justify-between px-4 gap-6 pt-6">
+      <div className="flex flex-row justify-between px-4 gap-6 pt-6">
       <Link href="/">
         
         <Image src={logo} alt="logo" width={100} height={26}/>
