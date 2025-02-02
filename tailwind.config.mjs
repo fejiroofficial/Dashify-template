@@ -12,7 +12,7 @@ export default {
         foreground: "var(--foreground)",
       },
       animation: {
-        marquee: "marquee 10s linear infinite",
+        marquee: "marquee 20s linear infinite",
       },
       keyframes: {
         marquee: {

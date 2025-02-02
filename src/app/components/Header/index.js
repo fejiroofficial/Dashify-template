@@ -7,7 +7,7 @@ import Button from "../Button";
 
 const Header = () => {
   return (
-    <div className="lg:container lg:mx-auto relative lg:top-2 max-w-5xl">
+    <div className="lg:container lg:mx-auto relative lg:top-2 max-w-[1002px] h-[80px]">
     <header className="relative lg:py-3 lg:px-2 lg:mx-20">
       <div className="absolute inset-0 w-full object-cover -z-10 top-0 md:top-2 rounded-[8px]"  style={{
           height: "115.24px",
@@ -25,7 +25,7 @@ const Header = () => {
 
 <div className="hidden lg:block">
 
-        <Button>Create Dashboard</Button>
+        <Button>Create a Dashboard</Button>
 </div>
       </div>
     </header>

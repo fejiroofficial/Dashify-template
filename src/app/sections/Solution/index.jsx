@@ -24,16 +24,14 @@ const Solution = () => {
         TELL AI WHAT YOU NEED TO KNOW 💡
       </p>
 
-      <h2 className="text-[32px] lg:text-[48px] font-bold mb-4 lg:w-[653px]">
-        Build headache-free dashboards with Dashify
+      <h2 className="text-[32px] lg:text-[48px] font-medium">
+        Build headache-free dashboards <br/> with Dashify
       </h2>
 
-      <p className="text-xl mb-8 text-gray-300">
+      <p className="text-xl mb-8 text-gray-300 font-medium">
         Watch as your scattered data transforms into clear, actionable insights. <br />
         No code. No waiting. No hassle.
       </p>
-
-      {/* Card Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         <Card
           imageSrc={dev}

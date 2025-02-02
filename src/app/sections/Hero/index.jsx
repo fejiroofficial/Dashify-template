@@ -17,18 +17,7 @@ const Hero = () => {
         alt="background-image"
         className="absolute inset-0 w-full h-full object-cover -z-10 lg:top-[2rem]"
       />
-          {/* <div
-        className="absolute inset-0 -z-10"
-        style={{
-          width: "992.276px",
-          height: "935.594px",
-          flexShrink: 0,
-          background: "linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%)",
-          filter: "blur(25px)",
-          opacity: 0.8, // Adjust opacity if needed
-          margin: "auto",
-        }}
-      /> */}
+
       <div className="relative z-10 lg:pt-24">
         <div className="absolute top-[8rem] left-[-10rem] justify-between hidden lg:block">
           <Image src={icon} alt="icon" className="" />
@@ -49,7 +38,7 @@ const Hero = () => {
           Seamlessly integrate with <br /> Gmail, GitHub, Google Calendar,
           Trello, and more.
         </p>
-        <Button>Create Dashboard</Button>
+        <Button>Create a Dashboard</Button>
         <div className="relative py-6">
           <div className="absolute right-[50%]">
             <Image src={vector} alt="vector" />

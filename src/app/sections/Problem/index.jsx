@@ -10,7 +10,7 @@ import container from "@/app/asset/svg/solution.svg";
 const Problem = () => {
   return (
     <section className="lg:container mx-auto flex flex-col lg:items-center text-center lg:pt-28 lg:px-2 font-[Figtree] relative">
-      <div className="mb-8 flex flex-col justify-center text-center mt-6 px-4 lg:mt-8 relative">
+      <div className="mb-8 flex flex-col justify-center items-center text-center mt-6 px-4 lg:mt-8 relative">
         <div
           style={{
             position: "absolute",
@@ -26,11 +26,11 @@ const Problem = () => {
           }}
         ></div>
 
-        <h2 className="text-[32px] md:text-[48px] font-bold mb-4">
+        <h2 className="text-[32px] md:text-[48px] font-medium mb-4 font-[figtree]">
           Stop spending hours gathering data 🤕
         </h2>
 
-        <p className="text-[18px] lg:text-xl text-gray-300 max-w-[679.46px] text-center px-2 pb-6 lg:pb-0 relative">
+        <p className="text-[18px] lg:text-xl font-medium text-gray-300 max-w-[679.46px] text-center px-2 pb-6 lg:pb-0 relative">
           Product managers are drowning in scattered data. Your product's story is
           fragmented across Gmail, GitHub, Calendar, and Trello – and you're
           spending hours every week just trying to piece it together.
@@ -63,20 +63,6 @@ const Problem = () => {
         </div>
 
         <div className="flex flex-col gap-6 px-2">
-          {/* <div className="flex items-center md:p-3 p-1 gap-2 bg-white text-black rounded-md shadow-md mr-8">
-            <Image src={pm} alt="avatar" />
-            <p className="text-[12px] md:text-[13px] font-medium">
-              Hey! It's been days. Where is the dashboard feature?
-            </p>
-          </div>
-          <div className="flex items-center justify-end p-3 gap-2 bg-white text-black rounded-md shadow-md ml-8 lg:ml-16 lg:pl-20">
-            <p className="text-[13px] font-medium">☹️ So sorry PM, would be ready soon</p>
-            <Image src={avater} alt="avatar" />
-          </div>
-          <div className="flex items-center p-3 gap-2 bg-white text-black rounded-md shadow-md mr-8">
-            <Image src={pm} alt="avatar" />
-            <p className="text-[13px] font-medium">Wt???? 🤯🤯🤯🤯🤯🤯🤯🤯🤯</p>
-          </div> */}
         <Image src={container} alt="box" />
         </div>
       </div>

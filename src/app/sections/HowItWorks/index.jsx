@@ -44,7 +44,7 @@ const HowItWorks = () => {
         
 
         <div className="flex flex-col items-center mx-2 px-6 lg:px-0">
-          <Image src={worksImg} alt="How it works visual 1" width={455} height={10} className="w-[90%] lg:w-full"/>
+          <Image src={worksImg} alt="How it works visual 1" width={455} height={100} className="w-[90%] lg:w-full"/>
           <Image src={works} alt="How it works visual 2" width={455} height={100} className="w-[90%] lg:w-full" />
         </div>
         <div className="flex items-center justify-center lg:pt-8">
