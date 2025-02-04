@@ -1,16 +1,23 @@
 import React from 'react';
+import andela from '@/app/asset/svg/andela.svg';
+import health from '@/app/asset/svg/center-health.svg';
+import getquin from '@/app/asset/svg/getquin.svg';
+import crypto from '@/app/asset/svg/crypto.svg';
+import rock from '@/app/asset/svg/rocketbc.svg';
+import livelink from "@/app/asset/svg/livelink.svg";
+import Image from 'next/image';
 
 const SocialProof = () => {
+  const customerLogos = [andela, health, getquin, crypto, rock, livelink];
+ 
     return (
-        <section className="social-proof py-20 text-center">
-            <h2 className="text-3xl font-bold mb-8">Our customers work at:</h2>
-            <div className="logos flex items-center gap-4 overflow-y-auto h-64">
-                <img src="/logo1.png" alt="Company 1" className="h-12" />
-                <img src="/logo2.png" alt="Company 2" className="h-12" />
-                <img src="/logo3.png" alt="Company 3" className="h-12" />
-                <img src="/logo4.png" alt="Company 4" className="h-12" />
-                <img src="/logo5.png" alt="Company 5" className="h-12" />
-            </div>
+        <section className="md:py-6 text-center">
+               <h2 className="lg:mt-12 text-lg text-[#D4D4D4]">Our customers work at:</h2>
+               <div className="flex justify-between gap-16 overflow-x-scroll h-[64px]">
+        {customerLogos.map((logo, index) => (
+          <Image key={index} src={logo} alt={`customer-logo-${index}`} width={70} height={24} className="w-[80px] h-auto" />
+        ))}
+      </div>
         </section>
     );
 };
