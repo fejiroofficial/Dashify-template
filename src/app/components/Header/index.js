@@ -7,7 +7,7 @@ import Button from "../Button";
 
 const Header = () => {
   return (
-    <div className="lg:container lg:mx-auto relative lg:top-2 max-w-[1002px] h-[80px]">
+    <div className="lg:container lg:mx-auto relative lg:top-2 flex flex-col justify-center max-w-5xl">
     <header className="relative lg:py-3 lg:px-2 lg:mx-20">
       <div className="absolute inset-0 w-full object-cover -z-10 top-0 md:top-2 rounded-[8px]"  style={{
           height: "115.24px",
@@ -16,7 +16,7 @@ const Header = () => {
           filter: "blur(25px)"
         }}></div>
 
-      <div className="flex justify-between items-center px-6 lg:bg-black lg:py-3 lg:mt-4 rounded-[8px]">
+      <div className="flex justify-between items-center px-6 lg:bg-black lg:py-3 lg:mt-4 rounded-[8px] lg:h-[80px]">
         <Link href="/">
         
             <Image src={logo} alt="logo" width={100} height={26}/>
