@@ -1,4 +1,4 @@
-import { Figtree, Geist_Mono } from "next/font/google";
+import { Figtree, Geist_Mono, Pacifico } from "next/font/google";
 import "./globals.css";
 
 const figtreeSans = Figtree({
@@ -6,8 +6,9 @@ const figtreeSans = Figtree({
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const geistMono = Pacifico({
+  variable: "--font-hand",
+  weight: ["400"],
   subsets: ["latin"],
 });
 

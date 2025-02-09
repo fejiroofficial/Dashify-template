@@ -25,8 +25,8 @@ const Hero = () => {
         <div className="absolute top-[10rem] right-[-10rem] justify-between hidden lg:block">
           <Image src={leftIcon} alt="icon" />
         </div>
-        <h1 className="text-[48px] lg:text-[64px] pt-8 lg:pt-6 text-center flex-wrap md:w-[645px]">
-          One prompt away from a Dashboard
+        <h1 className="text-[48px] tracking-tighter lg:text-[64px] pt-8 lg:pt-6 text-center flex-wrap">
+          One prompt away from a <br className="hidden lg:block" /> personalized <span className="font-[400] font-[family-name:var(--font-hand)]"> Dashboard </span>
         </h1>
         <div className="absolute bottom-[5rem] left-[-1rem] justify-between hidden lg:block">
           <Image src={wave} alt="icon" />
