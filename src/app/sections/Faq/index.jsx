@@ -41,7 +41,7 @@ const Faq = () => {
   return (
     <div className="container mx-auto flex flex-col justify-center items-center px-4 py-8" id="faq">
       <div className="flex flex-col mb-6">
-        <h2 className="text-[28px] md:text-[48px] font-bold text-center mb-2">
+        <h2 className="text-[28px] md:text-[48px] font-medium text-center mb-2">
           Frequently Asked Questions
         </h2>
         <p className="text-center font-medium text-[22px] md:text-base">
