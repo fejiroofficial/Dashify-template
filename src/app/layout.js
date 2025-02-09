@@ -6,8 +6,8 @@ const figtreeSans = Figtree({
   subsets: ["latin"],
 });
 
-const geistMono = Pacifico({
-  variable: "--font-hand",
+const pacificoHand = Pacifico({
+  variable: "--font-pacifico",
   weight: ["400"],
   subsets: ["latin"],
 });
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${figtreeSans.variable} ${geistMono.variable} antialiased`}
+        className={`${figtreeSans.variable} ${pacificoHand.variable} antialiased`}
       >
         {children}
       </body>

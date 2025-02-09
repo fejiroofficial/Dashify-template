@@ -26,7 +26,7 @@ const Hero = () => {
           <Image src={leftIcon} alt="icon" />
         </div>
         <h1 className="text-[48px] tracking-tighter lg:text-[64px] pt-8 lg:pt-6 text-center flex-wrap">
-          One prompt away from a <br className="hidden lg:block" /> personalized <span className="font-[400] font-[family-name:var(--font-hand)]"> Dashboard </span>
+          One prompt away from a <br className="hidden lg:block" /> personalized <span className="font-[400] font-[family-name:var(--font-pacifico)]"> Dashboard </span>
         </h1>
         <div className="absolute bottom-[5rem] left-[-1rem] justify-between hidden lg:block">
           <Image src={wave} alt="icon" />
@@ -38,7 +38,7 @@ const Hero = () => {
           Seamlessly integrate with <br /> Gmail, GitHub, Google Calendar,
           Trello, and more.
         </p>
-        <Button>Create a Dashboard</Button>
+        <Button size="large">Create a Dashboard</Button>
         <div className="relative py-6">
           <div className="absolute right-[50%]">
             <Image src={vector} alt="vector" />
