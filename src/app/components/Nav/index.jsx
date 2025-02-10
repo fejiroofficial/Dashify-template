@@ -65,7 +65,7 @@ const Nav = () => {
 
       <ul className="hidden lg:flex gap-4">
         <li >
-          <Link href="/" className="text-white hover:text-[#D4D4D4]">
+          <Link href="#features" className="text-white hover:text-[#D4D4D4]">
             Features
           </Link>
         </li>

@@ -16,7 +16,7 @@ const Footer = () => {
         </Link>
 
         <div className="flex flex-col md:flex-row justify-between lg:items-center gap-2 md:gap-6">
-          <Link href="/" className="text-white hover:text-[#D4D4D4]">
+          <Link href="#features" className="text-white hover:text-[#D4D4D4]">
             Features
           </Link>
           <Link href="#HowItWorks" className="text-white hover:text-[#D4D4D4]">
@@ -29,14 +29,14 @@ const Footer = () => {
             FAQ
           </Link>
           <div className="block md:hidden">
-            <Link href="#contact" className="text-white hover:text-[#D4D4D4]">
+            <Link href="mailto:contact@designorah.com" className="text-white hover:text-[#D4D4D4]">
               Contact us
             </Link>
           </div>
         </div>
 
         <div className="hidden md:block">
-          <Link href="#contact" className="text-white hover:text-[#D4D4D4]">
+          <Link href="mailto:contact@designorah.com" className="text-white hover:text-[#D4D4D4]">
             Contact us
           </Link>
         </div>
