@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "../../components/Button";
 import Image from "next/image";
-import background from "@/app/asset/svg/background.svg";
 import icon from "@/app/asset/svg/heroicon.svg";
 import leftIcon from "@/app/asset/svg/icon.svg";
 import wave from "@/app/asset/svg/herowave.svg";
@@ -11,18 +10,12 @@ import SocialProof from "../SocialProof";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto relative flex flex-col items-center text-center w-full lg:mb-8 px-4">
-      <Image
-        src={background}
-        alt="background-image"
-        className="absolute inset-0 w-full h-full object-cover -z-10 lg:top-[2rem]"
-      />
-
-      <div className="relative z-10 lg:pt-24">
-        <div className="absolute top-[8rem] left-[-10rem] justify-between hidden lg:block">
+    <section className="hero container mx-auto relative flex flex-col items-center text-center w-full lg:mb-8 px-4">
+      <div className="relative z-10">
+        <div className="absolute top-[4rem] left-[-10rem] justify-between hidden lg:block">
           <Image src={icon} alt="icon" className="" />
         </div>
-        <div className="absolute top-[10rem] right-[-10rem] justify-between hidden lg:block">
+        <div className="absolute top-[4rem] right-[-10rem] justify-between hidden lg:block">
           <Image src={leftIcon} alt="icon" />
         </div>
         <h1 className="text-[48px] tracking-tighter lg:text-[64px] pt-8 lg:pt-6 text-center flex-wrap">

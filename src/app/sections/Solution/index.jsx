@@ -10,10 +10,10 @@ import view from "@/app/asset/svg/views.svg";
 const Solution = () => {
   return (
     <section
-      className="container mx-auto relative flex flex-col justify-center items-center pt-20 text-center px-6 w-full"
+      className="container mx-auto relative flex flex-col justify-center items-center text-center px-6 w-full"
     
     >
-     <div className="absolute top-[70%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[753px] h-[753px] rounded-full bg-white blur-[460px] -z-10"></div>
+     <div className="absolute top-[70%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-full lg:w-[753px] h-[753px] rounded-full bg-white blur-[460px] -z-10"></div>
 
 
       <div className="flex justify-center items-center px-10 py-3">
@@ -24,7 +24,7 @@ const Solution = () => {
         TELL AI WHAT YOU NEED TO KNOW 💡
       </p>
 
-      <h2 className="text-[32px] lg:text-[48px] font-medium">
+      <h2>
         Build headache-free dashboards <br/> with Dashify
       </h2>
 

@@ -71,9 +71,9 @@ function CustomerReviews() {
           />
           <p>15K+ <span className="text-[#888888] mb-6">power users</span></p>
         </div>
-        <h1 className="text-white font-medium text-3xl md:text-[48px] mb-4 pb-8">
+        <h2>
           Hear from our customers
-        </h1>
+        </h2>
       </header>
 
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">

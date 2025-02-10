@@ -9,7 +9,11 @@
 
 body {
   color: var(--foreground);
+  min-width: 425px;
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+  @apply text-[32px] md:text-[48px] font-medium mb-4 tracking-tight;
+}

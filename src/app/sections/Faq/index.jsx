@@ -41,10 +41,10 @@ const Faq = () => {
   return (
     <div className="container mx-auto flex flex-col justify-center items-center px-4 py-8" id="faq">
       <div className="flex flex-col mb-6">
-        <h2 className="text-[28px] md:text-[48px] font-medium text-center mb-2">
+        <h2 className="text-center mb-2">
           Frequently Asked Questions
         </h2>
-        <p className="text-center font-medium text-[22px] md:text-base">
+        <p className="text-center font-medium text-[20px] md:text-base">
           If you need more help, contact us at customerhelp@cc.com
         </p>
       </div>

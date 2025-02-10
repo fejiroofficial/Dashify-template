@@ -7,20 +7,21 @@ import Button from "../Button";
 
 const Header = () => {
   return (
-    <div className="container lg:mx-auto relative lg:top-2 flex flex-col justify-center max-w-5xl">
+    <div className="container mx-auto mt-[33px] mb-[50px] relative flex flex-col justify-center max-w-5xl">
       <header className="relative">
         <div
-          className="absolute inset-0 w-full object-cover -z-10 top-0 md:top-2 rounded-[8px]"
+          className="hidden lg:block absolute inset-0 w-full object-cover -z-10 rounded-[8px]"
           style={{
-            height: "115.24px",
-            flexShrink: 0,
-            background:
-              "linear-gradient(180deg, #000 -2.51%, rgba(255, 255, 255, 0.38) 46.02%, #000 100%)",
+            height: "122px",
+            background: "linear-gradient(180deg, #000 -111.51%, rgba(255, 255, 255, 0.38) 37.02%, #000 109%)",
             filter: "blur(25px)",
+            marginLeft: "-31px",
+            top: "-5px",
+            width: "1084px"
           }}
         ></div>
 
-        <div className="flex justify-between items-center px-6 lg:bg-black lg:py-3 lg:mt-4 rounded-[8px] lg:h-[80px]">
+        <div className="flex justify-between items-center px-6 w-full lg:bg-black rounded-[8px] lg:h-[80px]">
           <Link href="/">
             <Image src={logo} alt="logo" width={100} height={26} />
           </Link>

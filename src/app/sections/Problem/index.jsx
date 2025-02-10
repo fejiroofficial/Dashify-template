@@ -9,8 +9,8 @@ import container from "@/app/asset/svg/solution.svg";
 
 const Problem = () => {
   return (
-    <section className="lg:container mx-auto flex flex-col lg:items-center text-center lg:pt-28 lg:px-2 font-[Figtree] relative">
-      <div className="mb-8 flex flex-col justify-center items-center text-center mt-6 px-4 lg:mt-8 relative">
+    <section className="lg:container mx-auto flex flex-col lg:items-center text-center lg:px-2 font-[Figtree] relative">
+      <div className="mb-8 flex flex-col justify-center items-center text-center px-4 relative">
         <div
           style={{
             position: "absolute",
@@ -26,7 +26,7 @@ const Problem = () => {
           }}
         ></div>
 
-        <h2 className="text-[32px] md:text-[48px] font-medium mb-4 font-[figtree]">
+        <h2>
           Stop spending hours gathering data 🤕
         </h2>
 
@@ -68,7 +68,7 @@ const Problem = () => {
       </div>
 
       <div className="mt-8 max-w-3xl">
-        <p className="text-[22px] lg:text-[28px] text-gray-400">
+        <p className="text-[22px] lg:text-[28px]">
           Meanwhile, decisions need to be made, stakeholders are waiting, and your
           valuable time is being wasted on dashboard setup instead of product
           strategy.

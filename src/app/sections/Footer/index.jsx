@@ -11,12 +11,11 @@ const Footer = () => {
     <div className="flex flex-col justify-center">
       <Image src={Line} alt="line" />
       <div className="flex flex-row justify-between px-4 gap-6 pt-6">
-      <Link href="/">
-        
-        <Image src={logo} alt="logo" width={100} height={26}/>
-    </Link>
+        <Link href="/">
+          <Image src={logo} alt="logo" width={100} height={26} />
+        </Link>
 
-        <div className="flex flex-col md:flex-row justify-between items-center gap-2 md:gap-6">
+        <div className="flex flex-col md:flex-row justify-between lg:items-center gap-2 md:gap-6">
           <Link href="/" className="text-white hover:text-[#D4D4D4]">
             Features
           </Link>
@@ -29,14 +28,14 @@ const Footer = () => {
           <Link href="#faq" className="text-white hover:text-[#D4D4D4]">
             FAQ
           </Link>
-          <div className="block sm:hidden">
+          <div className="block md:hidden">
             <Link href="#contact" className="text-white hover:text-[#D4D4D4]">
               Contact us
             </Link>
           </div>
         </div>
 
-        <div className="hidden sm:block">
+        <div className="hidden md:block">
           <Link href="#contact" className="text-white hover:text-[#D4D4D4]">
             Contact us
           </Link>
