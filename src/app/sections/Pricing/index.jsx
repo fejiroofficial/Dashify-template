@@ -26,7 +26,7 @@ const Pricing = () => {
       <div className="absolute right-10 w-[30%] h-1/4 rounded-full bg-[rgba(146,146,146,1)] blur-[460px] -z-10"></div>
 
 
-      <div className="flex flex-col xl:flex-row justify-between gap-16 py-8 px-6">
+      <div className="flex flex-col xl:flex-row item-center gap-16 py-8 px-6 xl:flex-row xl:justify-center">
         {[
           { title: 'Basic Plan', amount: '$45', listItems: ['1 team', '1 template', '5 dashboards', 'Unlimited integrations'] },
           { title: 'Business Plan', amount: '$45', listItems: ['5 teams', '10 templates', '10 dashboards', 'Unlimited integrations'] },
