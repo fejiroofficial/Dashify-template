@@ -31,7 +31,7 @@ const Problem = () => {
         </h2>
 
         <p className="text-[18px] lg:text-xl font-medium text-gray-300 max-w-[679.46px] text-center px-2 pb-6 lg:pb-0 relative">
-          Product managers are drowning in scattered data. Your product's story is
+          You are drowning in scattered data. Your product's story is
           fragmented across Gmail, GitHub, Calendar, and Trello – and you're
           spending hours every week just trying to piece it together.
         </p>
