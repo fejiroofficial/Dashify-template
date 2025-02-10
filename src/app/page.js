@@ -20,7 +20,7 @@ export default function Home() {
       <Image
         src={background}
         alt="background-image"
-        className="absolute w-full h-full"
+        className="hidden md:block absolute w-full h-full -left-[2rem]"
       />
       <Header />
       <main className="flex flex-col gap-8 lg:row-start-2 justify-center items-center ">

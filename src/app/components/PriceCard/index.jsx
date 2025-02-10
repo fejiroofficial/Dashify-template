@@ -7,7 +7,7 @@ const PriceCard = ({ title, amount, listItems, buttonLabel, onButtonClick, varia
 
   return (
     <div
-      className={`flex flex-col justify-between rounded-[16px] p-6 w-[363px] h-[449px] text-start border border-[rgba(255,255,255,0.44)] bg-[#000] shadow-[0px_4px_4px_rgba(0,0,0,0.25)]`}
+      className={`flex flex-col justify-between rounded-[16px] p-6 h-[449px] lg:w-full xl:w-[363px] text-start border border-[rgba(255,255,255,0.44)] bg-[#000] shadow-[0px_4px_4px_rgba(0,0,0,0.25)]`}
     >
       <div className={`${isWhiteVariant ? 'text-white' : 'text-[#888888]'}`}>
         <h3 className="text-[18px] font-semibold pb-3">{title}</h3>
