@@ -12,7 +12,7 @@ const SocialProof = () => {
  
     return (
         <section className="md:py-6 text-center">
-               <h2 className="lg:mt-12 text-lg text-[#D4D4D4]">Our customers work at:</h2>
+               <h2 className="mt-12 text-lg text-[#D4D4D4]">Our customers work at:</h2>
                <div className="flex justify-between gap-16 overflow-x-scroll h-[64px]">
         {customerLogos.map((logo, index) => (
           <Image key={index} src={logo} alt={`customer-logo-${index}`} width={70} height={24} className="w-[80px] h-auto" />
