@@ -19,15 +19,15 @@ const Solution = () => {
         <Image src={line} alt="line-icon" className="bg-white" />
       </div>
 
-      <p className="text-[12px] font-medium text-gray-300 mb-2 pt-10">
+      <p className="text-p4 font-medium text-gray-300 mb-2 pt-10">
         TELL AI WHAT YOU NEED TO KNOW 💡
       </p>
 
-      <h2>
+      <h2 className="text-h3 lg:text-h2">
         Build headache-free dashboards <br /> with Dashify
       </h2>
 
-      <p className="text-xl mb-8 text-gray-300 font-medium">
+      <p className="text-h4 mb-8 text-gray-300 font-medium">
         Watch as your scattered data transforms into clear, actionable insights.{" "}
         <br />
         No code. No waiting. No hassle.
