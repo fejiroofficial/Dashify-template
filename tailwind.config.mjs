@@ -28,10 +28,6 @@ export default {
           50: '#FF9900',
         }
       },
-      fontFamily: {
-        figtree: ["Figtree", "sans-serif"],
-        inter: ["Inter", "sans-serif"],
-      },
       fontSize: {
         h1: '64px',
         h2: '48px',
@@ -45,6 +41,10 @@ export default {
         p3: '14px',
         p4: '12px',
       },
+      // fontSize: {
+      //   base: 'var(--text-base-size)',
+      //   small: 'var(--text-small-size)',
+      // },
       animation: {
         marquee: "marquee 20s linear infinite",
       },

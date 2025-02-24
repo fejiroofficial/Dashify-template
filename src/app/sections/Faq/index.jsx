@@ -41,10 +41,10 @@ const Faq = () => {
   return (
     <div className="container mx-auto flex flex-col justify-center items-center px-4 py-8" id="faq">
       <div className="flex flex-col mb-6">
-        <h2 className="text-center mb-2 text-h3 lg:text-h2">
+        <h2 className="text-center mb-2">
           Frequently Asked Questions
         </h2>
-        <p className="text-center font-medium text-h4 md:text-base">
+        <p className="text-center font-medium sub-header">
           If you need more help, contact us at customerhelp@cc.com
         </p>
       </div>
@@ -66,7 +66,7 @@ const Faq = () => {
                 openIndex === index ? "max-h-40" : "max-h-0"
               }`}
             >
-              <p className="bg-primary-BASE text-black-BASE p-4">{faq.answer}</p>
+              <p className="bg-primary-BASE text-black-BASE p-4 text">{faq.answer}</p>
             </div>
           </div>
         ))}

@@ -23,11 +23,11 @@ const Solution = () => {
         TELL AI WHAT YOU NEED TO KNOW 💡
       </p>
 
-      <h2 className="text-h3 lg:text-h2">
+      <h2>
         Build headache-free dashboards <br /> with Dashify
       </h2>
 
-      <p className="text-h4 mb-8 text-gray-300 font-medium">
+      <p className="sub-header">
         Watch as your scattered data transforms into clear, actionable insights.{" "}
         <br />
         No code. No waiting. No hassle.

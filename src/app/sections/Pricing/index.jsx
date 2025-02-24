@@ -19,8 +19,8 @@ const Pricing = () => {
       className="container mx-auto relative flex flex-col justify-center text-center px-6 pt-16 mb-16"
       id="pricing"
     >
-      <p className="text-h3 lg:text-h2 font-medium">Clear pricing for 10x value</p>
-      <p className="text-h4 font-medium text-gray-BASE pb-6">
+      <h2>Clear pricing for 10x value</h2>
+      <p className="sub-header pb-6">
         Flexible price plans to fit your demand and pocket size
       </p>
       <div className="absolute right-10 w-[30%] h-1/4 rounded-full bg-[rgba(146,146,146,1)] blur-[460px] -z-10"></div>

@@ -26,11 +26,11 @@ const Problem = () => {
           }}
         ></div>
 
-        <h2 className="text-h3 lg:text-h2">
+        <h2>
           Stop spending hours gathering data 🤕
         </h2>
 
-        <p className="text-p2 lg:text-h4 font-medium text-gray-300 max-w-[679.46px] text-center px-2 pb-6 lg:pb-0 relative">
+        <p className="sub-header max-w-[679.46px] text-center px-2 pb-6 lg:pb-0 relative">
           You are drowning in scattered data. Your product's story is
           fragmented across Gmail, GitHub, Calendar, and Trello – and you're
           spending hours every week just trying to piece it together.
@@ -44,19 +44,19 @@ const Problem = () => {
           </h3>
           <div className="flex items-center gap-2 md:gap-4">
             <Image src={one} alt="one" width={50} height={31} className="w-[22px] md:w-[50px]" />
-            <p className="text-p2 lg:text-p1 font-medium text-gray-BASE text-wrap">
+            <p className="sub-text text-wrap">
               Chasing developers who are already swamped
             </p>
           </div>
           <div className="flex items-center gap-2 md:gap-4">
             <Image src={two} alt="two" width={50} height={31} className="w-[22px] md:w-[50px]" />
-            <p className="text-p2 lg:text-p1 font-medium text-gray-BASE text-wrap">
+            <p className="sub-text text-wrap">
               Wait days (or weeks) for a simple metric change
             </p>
           </div>
           <div className="flex items-center gap-2 md:gap-4">
             <Image src={three} alt="three" width={50} height={31} className="w-[22px] md:w-[50px]" />
-            <p className="text-p2 lg:text-p1 font-medium text-gray-BASE">
+            <p className="sub-text">
               Manually copy-paste data between tools
             </p>
           </div>

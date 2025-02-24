@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="absolute top-[4rem] right-[-10rem] justify-between hidden lg:block">
           <Image src={leftIcon} alt="icon" />
         </div>
-        <h1 className="text-h2 tracking-tighter lg:text-h1 pt-8 lg:pt-6 text-center flex-wrap">
+        <h1 className="pt-8 lg:pt-6 text-center flex-wrap">
           One prompt away from a <br className="hidden lg:block" /> personalized <span className="font-[400] font-[family-name:var(--font-pacifico)]"> Dashboard </span>
         </h1>
         <div className="absolute bottom-[5rem] left-[-1rem] justify-between hidden lg:block">
@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="absolute bottom-[4rem] right-[-1rem] justify-between hidden lg:block">
           <Image src={leftWave} alt="icon" />
         </div>
-        <p className="text-p2 md:text-h4 mb-8 text-[#D4D4D4] flex-wrap px-6 lg:px-0">
+        <p className="mb-8 flex-wrap px-6 lg:px-0">
           Seamlessly integrate with <br /> Gmail, GitHub, Google Calendar,
           Trello, and more.
         </p>

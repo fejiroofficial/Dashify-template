@@ -34,7 +34,7 @@ const HowItWorks = () => {
         <div className="h-[1px] w-[50px] md:w-[198px] bg-white opacity-50"></div>
         <div className="w-2 h-2 bg-white rounded-full"></div>
         </div>
-        <h2 className="mx-4 text-center text-h3 lg:text-h2">Here is how it works</h2>
+        <h2 className="mx-4 text-center">Here is how it works</h2>
         <div className=" flex items-center">
         <div className="w-2 h-2 bg-white rounded-full"></div>
         <div className="h-[1px] w-[50px] md:w-[198px] bg-white opacity-50"></div>
@@ -54,8 +54,8 @@ const HowItWorks = () => {
           {steps.map((step, index) => (
             <div key={index} className="px-6 md:px-6">
               <h3 className="text-p4 font-medium text-gray-50">{step.title}</h3>
-              <h4 className="text-p1 lg:text-s2 font-medium">{step.heading}</h4>
-              <p className="text-gray-50 text-h4 lg:w-[482px] mt-6">{step.description}</p>
+              <h4 className="title">{step.heading}</h4>
+              <p className="text-gray-50 lg:w-[482px] mt-6">{step.description}</p>
             </div>
           ))}
         </div>
