@@ -9,7 +9,7 @@ const Button = ({ clickHandler, children, size = 'regular' }) => {
     return (
         <button
             onClick={clickHandler}
-            className={`btn ${buttonSizes[size]} bg-white rounded-lg text-black font-medium`}
+            className={`btn ${buttonSizes[size]} bg-white rounded-lg text-black-BASE font-medium`}
         >
             {children}
         </button>

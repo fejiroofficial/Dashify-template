@@ -9,8 +9,8 @@ const Box = ({ imageSrc, title, subtext }) => {
                 <Image src={imageSrc} alt={title} width={300} height={200} className='w-[379px] h-[284px] object-contain' />
             </div>
             <div className="pt-8 pl-6 text-start">
-                <h3 className="text-xl font-semibold pb-3">{title}</h3>
-                <p className="text-sm text-gray-500 ">{subtext}</p>
+                <h3 className="text-h4 font-semibold pb-3">{title}</h3>
+                <p className="text-p3 text-gray-500 ">{subtext}</p>
             </div>
         </div>
     );

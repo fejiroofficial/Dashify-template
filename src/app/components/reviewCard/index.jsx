@@ -10,15 +10,15 @@ const CustomerReviewCard = ({ review }) => {
           {[...Array(5)].map((_, index) => (
             <span
               key={index}
-              className={`text-[#FF9900] text-lg ${
-                index < review.stars ? "text-[#FF9900]" : "text-gray-300"
+              className={`text-orange-50 text-lg ${
+                index < review.stars ? "text-orange-50" : "text-gray-300"
               }`}
             >
               ★
             </span>
           ))}
         </div>
-        <p className="text-[12px] font-normal text-[#4E4E4E] mb-8">
+        <p className="text-p4 font-normal text-black-100 mb-8">
           {review.feedback}
         </p>
       </div>
@@ -33,8 +33,8 @@ const CustomerReviewCard = ({ review }) => {
           />
         </div>
         <div className="ml-2">
-          <h3 className="text-lg font-medium text-[#4E4E4E]">{review.name}</h3>
-          <p className="text-[12px] text-[#A4A4A4]">{review.position}</p>
+          <h3 className="text-p2 font-medium text-black-100">{review.name}</h3>
+          <p className="text-p4 text-gray-100">{review.position}</p>
         </div>
       </div>
     </div>

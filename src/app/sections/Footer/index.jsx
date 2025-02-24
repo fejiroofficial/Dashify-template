@@ -16,16 +16,16 @@ const Footer = () => {
         </Link>
 
         <div className="flex flex-col md:flex-row justify-between lg:items-center gap-2 md:gap-6">
-          <Link href="#features" className="text-white hover:text-[#D4D4D4]">
+          <Link href="#features" className="text-primary-BASE hover:text-[#D4D4D4]">
             Features
           </Link>
-          <Link href="#HowItWorks" className="text-white hover:text-[#D4D4D4]">
+          <Link href="#HowItWorks" className="text-primary-BASE hover:text-[#D4D4D4]">
             How it Works
           </Link>
-          <Link href="#pricing" className="text-white hover:text-[#D4D4D4]">
+          <Link href="#pricing" className="text-primary-BASE hover:text-[#D4D4D4]">
             Pricing
           </Link>
-          <Link href="#faq" className="text-white hover:text-[#D4D4D4]">
+          <Link href="#faq" className="text-primary-BASE hover:text-[#D4D4D4]">
             FAQ
           </Link>
           <div className="block md:hidden">

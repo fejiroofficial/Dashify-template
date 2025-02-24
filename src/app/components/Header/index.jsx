@@ -21,7 +21,7 @@ const Header = () => {
           }}
         ></div>
 
-        <div className="flex justify-between items-center px-6 w-full lg:bg-black rounded-[8px] lg:h-[80px]">
+        <div className="flex justify-between items-center px-6 w-full lg:bg-black-BASE rounded-[8px] lg:h-[80px]">
           <Link href="/">
             <Image src={logo} alt="logo" width={100} height={26} />
           </Link>

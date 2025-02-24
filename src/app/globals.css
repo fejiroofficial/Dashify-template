@@ -5,6 +5,8 @@
 :root {
   --background: #0a0a0a;
   --foreground: #ededed;
+  --text-base-size: 16px;
+  --text-color: #D4D4D4;
 }
 
 body {
@@ -12,8 +14,32 @@ body {
   min-width: 425px;
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  font-size: var(--text-base-size);
+}
+h1 {
+ @apply text-[48px] lg:text-[64px] font-bold tracking-tighter
 }
 
 h2 {
   @apply text-[32px] md:text-[48px] font-medium mb-4 tracking-tight;
+}
+p{
+  @apply text-[18px] md:text-[20px];
+}
+.sub-header{
+@apply text-[18px] lg:text-[20px] font-medium  tracking-tight text-[var(--text-color)];
+}
+
+.sub-text {
+  @apply text-[18px] lg:text-[22px] text-[var(--text-color)] tracking-tight font-medium;
+}
+.text{
+  @apply text-[18px] tracking-tight;
+}
+.title {
+  @apply text-[22px] lg:text-[38px] font-medium;
+}
+
+.small {
+  @apply text-[12px] font-medium tracking-tight;
 }
