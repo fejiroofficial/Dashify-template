@@ -2,10 +2,10 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "@/app/asset/svg/logo.svg";
-import Nav from "../Nav";
-import Button from "../Button";
+import Navbar from "../navbar";
+import Button from "../../Button";
 
-const Header = () => {
+const WaitListHeader = () => {
   return (
     <div className="container mx-auto mt-[33px] mb-[50px] relative flex flex-col justify-center max-w-5xl">
       <header className="relative">
@@ -25,10 +25,10 @@ const Header = () => {
           <Link href="/">
             <Image src={logo} alt="logo" width={100} height={26} />
           </Link>
-          <Nav />
+          <Navbar />
 
           <div className="hidden lg:block">
-            <Button>Create a Dashboard</Button>
+            <Button>Join Waitlist</Button>
           </div>
         </div>
       </header>
@@ -36,4 +36,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default WaitListHeader;

@@ -3,10 +3,9 @@ import React, { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import menu from "@/app/asset/svg/menu.svg";
 import Image from "next/image";
-import Button from "../Button";
 import Link from "next/link";
 
-const Nav = () => {
+const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -35,24 +34,8 @@ const Nav = () => {
             </button>
 
             <ul className="space-y-6 text-center">
-              <li>
-                <Link
-                  href="#features"
-                  className="block text-white hover:text-[#D4D4D4]"
-                  onClick={toggleMenu}
-                >
-                  Features
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#HowItWorks"
-                  className="block text-white hover:text-[#D4D4D4]"
-                  onClick={toggleMenu}
-                >
-                  How it Works
-                </Link>
-              </li>
+         
+          
               <li>
                 <Link
                   href="#pricing"
@@ -71,56 +54,29 @@ const Nav = () => {
                   FAQ
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/waitlist"
-                  className="block text-white hover:text-[#D4D4D4]"
-                  onClick={toggleMenu}
-                >
-                  waitlist
-                </Link>
-              </li>
             </ul>
             <div className="block lg:hidden mt-6">
-              <Button>Create Dashboard</Button>
+              <Button>Join Waitlist</Button>
             </div>
           </div>
         </div>
       )}
       <ul className="hidden lg:flex gap-4">
+
         <li>
-          <Link href="#features" className="text-white hover:text-[#D4D4D4] ">
-            Features
+          <Link href="#HowItWorks" className="text-white hover:text-[#D4D4D4]">
+          Problem statement
           </Link>
         </li>
         <li>
-          <Link href="#HowItWorks" className="text-white hover:text-[#D4D4D4] ">
-            How it Works
+          <Link href="#pricing" className="text-white hover:text-[#D4D4D4]">
+          Benefits
           </Link>
         </li>
-        <li>
-          <Link href="#pricing" className="text-white hover:text-[#D4D4D4] ">
-            Pricing
-          </Link>
-        </li>
-        <li>
-          <Link href="#faq" className="text-white hover:text-[#D4D4D4] ">
-            FAQ
-          </Link>
-        
-        </li>
-        <li>
-                <Link
-                  href="/waitlist"
-                  className="block text-white hover:text-[#D4D4D4] "
-                  onClick={toggleMenu}
-                >
-                  waitlist
-                </Link>
-              </li>
+   
       </ul>
     </nav>
   );
 };
 
-export default Nav;
+export default Navbar;

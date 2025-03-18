@@ -9,19 +9,19 @@ const PriceCard = ({ title, amount, listItems, buttonLabel, onButtonClick, varia
     <div
       className={`flex flex-col justify-between rounded-[16px] p-6 h-[449px] lg:w-full xl:w-[363px] text-start border border-[rgba(255,255,255,0.44)] bg-[#000] shadow-[0px_4px_4px_rgba(0,0,0,0.25)]`}
     >
-      <div className={`${isWhiteVariant ? 'text-white' : 'text-[#888888]'}`}>
-        <h3 className="text-[18px] font-semibold pb-3">{title}</h3>
-        <p className="text-[42px] font-medium pb-6">
+      <div className={`${isWhiteVariant ? 'text-white' : 'text-gray-50'}`}>
+        <h3 className="text font-semibold pb-3">{title}</h3>
+        <h2 className="pb-6">
           {amount}
-          <span className="text-[22px] font-medium"> 00 /month</span>
-        </p>
+          <span className="text-p1 font-medium"> 00 /month</span>
+        </h2>
       </div>
 
       <div className="w-full pb-6">
         {listItems.map((item, index) => (
           <div key={index} className="flex gap-2 mb-2">
             <Image src={icon} alt="Tick icon" width={16} height={16} />
-            <p className={`text-[18px] ${isWhiteVariant ? 'text-white' : 'text-[#888888]'}`}>{item}</p>
+            <p className={`text ${isWhiteVariant ? 'text-white' : 'text-gray-50'}`}>{item}</p>
           </div>
         ))}
       </div>
@@ -30,8 +30,8 @@ const PriceCard = ({ title, amount, listItems, buttonLabel, onButtonClick, varia
         onClick={onButtonClick}
         className={`w-full py-3 rounded-md transition duration-300 text-[18px] ${
           isWhiteVariant
-            ? 'bg-white text-black hover:bg-[whitesmoke]'
-            : 'bg-[#888888] text-white hover:bg-[grey]'
+            ? 'bg-white text-black-BASE hover:bg-[whitesmoke]'
+            : 'bg-gray-50 text-white hover:bg-[grey]'
         }`}
       >
         {buttonLabel}

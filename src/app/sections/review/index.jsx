@@ -69,7 +69,7 @@ function CustomerReviews() {
           <CustomerReviewImage
             images={[avater2, avater3, avater1, avater, avater1]}
           />
-          <p>15K+ <span className="text-[#888888] mb-6">power users</span></p>
+          <p className="small">15K+ <span className="text-gray-50 mb-6">power users</span></p>
         </div>
         <h2>
           Hear from our customers
