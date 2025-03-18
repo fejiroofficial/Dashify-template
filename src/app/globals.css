@@ -43,3 +43,7 @@ p{
 .small {
   @apply text-[12px] font-medium tracking-tight;
 }
+
+.header {
+  @apply text-[30px] font-medium tracking-tight;
+}
