@@ -71,6 +71,11 @@ const Nav = () => {
                   FAQ
                 </Link>
               </li>
+              <li>
+          <Link href="/waitlist" className="text-white hover:text-[#D4D4D4]">
+            Waitlist
+          </Link>
+        </li>
             </ul>
             <div className="block lg:hidden mt-6">
               <Button>Create Dashboard</Button>
@@ -97,6 +102,11 @@ const Nav = () => {
         <li>
           <Link href="#faq" className="text-white hover:text-[#D4D4D4]">
             FAQ
+          </Link>
+        </li>
+        <li>
+          <Link href="/waitlist" className="text-white hover:text-[#D4D4D4]">
+            Waitlist
           </Link>
         </li>
       </ul>
