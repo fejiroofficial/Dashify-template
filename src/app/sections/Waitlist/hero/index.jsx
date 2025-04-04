@@ -8,15 +8,15 @@ import React from "react";
  
  const WaitListHero = () => {
    return (
-     <section className="hero container mx-auto relative flex flex-col items-center justify-center text-center w-full lg:mb-8 px-4 pb-8">
-       <div className="relative z-10">
+     <section className="hero container mx-auto relative flex flex-col items-center justify-center text-center w-full lg:mb-8 px-4 pb-8 lg:pb-16">
+       <div className="relative z-10 items-center">
          <div className="absolute top-[4rem] left-[-10rem] justify-between hidden lg:block">
            <Image src={icon} alt="icon" className="" />
          </div>
          <div className="absolute top-[4rem] right-[-10rem] justify-between hidden lg:block">
            <Image src={leftIcon} alt="icon" />
          </div>
-         <h2 className="pt-8 lg:pt-6 text-center flex-wrap">
+         <h2 className="pt-8 lg:pt-6 text-center flex-wrap lg:text-[84px] font-normal mx-auto">
            Create Powerful AI <br className="hidden lg:block" /> Dashboards Using
            prompt
          </h2>
@@ -25,8 +25,8 @@ import React from "react";
            Seamless integration with <br />
            Gmail, GitHub, Google Calendar, Trello and lots more.
          </p>
-         <div className="relative  flex flex-col items-center bg-white text-black gap-8 rounded-lg mt-10 h-[416px] px-16 overflow-hidden">
-           <div className="flex pt-3">
+         <div className="relative  flex flex-col items-center bg-white text-black gap-8 rounded-lg mt-10 h-[416px] px-16 overflow-hidden w-[80%] lg:max-w-[744px] mx-auto">
+           <div className="flex pt-3 w-full">
              <Image src={star} alt="star-icon" className="absolute left-2" />
              <Image
                src={Bg}

@@ -3,7 +3,7 @@ import cover from '@/app/asset/svg/waitlist/cover.svg';
 import Image from 'next/image';
 export default function HowItStarted() {
   return (
-    <div className='container mx-auto flex flex-col justify-center items-center px-6 h-screen '>
+    <div className='container mx-auto flex flex-col justify-center items-center px-6'>
         <h2>How it started (Hook)</h2>
         <div className='flex flex-col lg:flex-row gap-16 items-center pt-6'>
         <div className='flex flex-col gap-6 flex-1'>
