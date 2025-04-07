@@ -17,3 +17,7 @@ body {
 h2 {
   @apply text-[32px] md:text-[48px] font-medium mb-4 tracking-tight;
 }
+
+p{
+  @apply text-[18px] md:text-[20px];
+}
