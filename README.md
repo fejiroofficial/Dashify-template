@@ -1,6 +1,7 @@
 # Dashify
 
-Next.js powered Landing page template for startups
+Next.js powered Landing page template for startups by [DesignOrah](https://x.com/DesignOrah)
+
 
 ```bash
 npm run dev
@@ -27,4 +28,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Support
 
-Should you need support customizing this theme, or help with the landing page copy. Please do reach out to me on [X](https://x.com/FejiroGospel)
+Please do reach out to me on [X](https://x.com/FejiroGospel)
+
+P.S.: Copyright. Please do not pass this template as yours without credit
